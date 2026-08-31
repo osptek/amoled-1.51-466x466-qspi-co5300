@@ -56,7 +56,7 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 **建议适配组合：** 本模组（AM151Q466466LK）+ **ESP32-S3 Demo 板**。其它主控 / 接线需自行改固件或源码。
 
 | 底板（ESP32-S3 Demo） | 插接示意 |
-| -------------------- | -------- |
+| ---- | ---- |
 | <img alt="ESP32-S3 Demo 板" src="./images/esp32-s3-demo-board.png" width="280" /> | <img alt="模组插接在 S3 Demo 板上" src="./images/assembled.png" width="280" /> |
 
 **引脚定义**
@@ -95,9 +95,9 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 ## 仓库结构
 
 ```text
-1.51-amoled-466x466-qspi-co5300/                                # 仓库根（导航见 ../../README.md）
+1.51-amoled-466x466-qspi-co5300/  # 仓库根（导航见 ../../README.md）
 └── versions/
-    └── AM151Q466466LK/                                # 本料号完整资料
+    └── AM151Q466466LK/           # 本料号完整资料
         ├── README.md
         ├── README_EN.md
         ├── images/
@@ -134,7 +134,7 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**

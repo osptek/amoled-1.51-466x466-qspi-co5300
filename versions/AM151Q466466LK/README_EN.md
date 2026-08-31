@@ -56,13 +56,13 @@ Flash the merged image below to verify display and touch without building ESP-ID
 **Intended hardware:** this module (AM151Q466466LK) + the **ESP32-S3 Demo board**. Other MCUs / wiring need a different firmware or your own port.
 
 | Base board (ESP32-S3 Demo) | Assembled |
-| -------------------------- | --------- |
+| ---- | ---- |
 | <img alt="ESP32-S3 Demo board" src="./images/esp32-s3-demo-board.png" width="280" /> | <img alt="Module plugged into S3 Demo board" src="./images/assembled.png" width="280" /> |
 
 **Pin map**
 
 | Function | GPIO |
-| -------- | ---- |
+| ---- | ---- |
 | LCD CS | 14 |
 | LCD PCLK (CLK) | 9 |
 | LCD DATA0 | 10 |
@@ -76,7 +76,7 @@ Flash the merged image below to verify display and touch without building ESP-ID
 | TOUCH INT | 39 |
 
 | File | Address | Notes |
-| ---- | ------- | ----- |
+| ---- | ---- | ---- |
 | [`firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin) | `0x0` (merged) | Bringup for the S3 Demo board + this module |
 
 > Flash the merged image at **`0x0`**, not `0x10000`.
@@ -95,9 +95,9 @@ Flash the merged image below to verify display and touch without building ESP-ID
 ## Repository layout
 
 ```text
-1.51-amoled-466x466-qspi-co5300/                                # repo root (nav: ../../README_EN.md)
+1.51-amoled-466x466-qspi-co5300/  # repo root (nav: ../../README_EN.md)
 └── versions/
-    └── AM151Q466466LK/                                # full materials for this part number
+    └── AM151Q466466LK/           # full materials for this part number
         ├── README.md
         ├── README_EN.md
         ├── images/

@@ -1,0 +1,13 @@
+category: display
+repo: 1.51-amoled-466x466-qspi-co5300
+panel:
+  size_inch: '1.51'
+  panel: AMOLED
+  width: 466
+  height: 466
+  interface: QSPI
+  driver: CO5300
+slogan_zh: AMOLED 模组 · QSPI · CO5300 · 多版本索引
+slogan_en: AMOLED module · QSPI · CO5300 · Multi-Version Index
+skus:
+- AM151Q466466LK

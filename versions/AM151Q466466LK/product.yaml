@@ -1,0 +1,133 @@
+sku: AM151Q466466LK
+category: display
+repo: 1.51-amoled-466x466-qspi-co5300
+panel:
+  size_inch: '1.51'
+  panel: AMOLED
+  width: 466
+  height: 466
+  interface: QSPI
+  driver: CO5300
+  touch_driver: CST820
+copy:
+  slogan_zh: 圆形 AMOLED 模组 · QSPI · CO5300
+  slogan_en: Round AMOLED module · QSPI · CO5300
+  intro_zh: OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
+  intro_en: OSPTEK **1.51″ 466×466 AMOLED** is a **QSPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to wearables, round gauges, and compact round HMI.
+  version_note_zh: 当前模组版本：**AM151Q466466LK**。电气与外形细节以 [`docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf`](./docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf) 为准。
+  version_note_en: 'Current module version: **AM151Q466466LK**. Electrical and mechanical details follow [`docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf`](./docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf).'
+  panel_type_zh: AMOLED（彩色，圆形）
+  panel_type_en: AMOLED (color, round)
+  spec_note_zh: 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+  spec_note_en: Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+  nav_note_zh: 带触摸（CST820）。
+  nav_note_en: With touch (CST820).
+datasheet:
+  label_zh: docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf
+  label_en: docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf
+  path: docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf
+product_image: true
+hero_alt_zh: OSPTEK 1.51 寸 466×466 AMOLED QSPI 模组（CO5300）宣传图
+hero_alt_en: OSPTEK 1.51″ 466×466 AMOLED QSPI module (CO5300) product image
+examples:
+- path: examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/
+  label_zh: ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL8
+  label_en: ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL8
+  short_zh: ESP32-S3 CO5300 QSPI + LVGL8
+  short_en: ESP32-S3 CO5300 QSPI + LVGL8
+- path: examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/
+  label_zh: ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL9
+  label_en: ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL9
+  short_zh: ESP32-S3 CO5300 QSPI + LVGL9
+  short_en: ESP32-S3 CO5300 QSPI + LVGL9
+- path: examples/esp32s31-idf6_co5300-qspi_esp-lvgl-adapter_lvgl9/
+  label_zh: ESP32-S3.1 · CO5300 QSPI + esp-lvgl-adapter / LVGL9
+  label_en: ESP32-S3.1 · CO5300 QSPI + esp-lvgl-adapter / LVGL9
+  short_zh: ESP32-S3.1 CO5300 QSPI + LVGL9
+  short_en: ESP32-S3.1 CO5300 QSPI + LVGL9
+- path: examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/
+  label_zh: ESP32-S3 · LVGL8 + TE 防撕裂
+  label_en: ESP32-S3 · LVGL8 + TE
+  short_zh: ESP32-S3 LVGL8 + TE
+  short_en: ESP32-S3 LVGL8 + TE
+- path: examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9_amoled-with-te/
+  label_zh: ESP32-S3 · LVGL9 + TE 防撕裂
+  label_en: ESP32-S3 · LVGL9 + TE
+  short_zh: ESP32-S3 LVGL9 + TE
+  short_en: ESP32-S3 LVGL9 + TE
+- path: examples/with-te/esp32s31-idf6_co5300-qspi_esp-lvgl-adapter_lvgl9_amoled-with-te/
+  label_zh: ESP32-S3.1 · LVGL9 + TE 防撕裂
+  label_en: ESP32-S3.1 · LVGL9 + TE
+  short_zh: ESP32-S3.1 LVGL9 + TE
+  short_en: ESP32-S3.1 LVGL9 + TE
+resources:
+- label_zh: 产品规格书（AM151Q466466LK）
+  label_en: Product datasheet (AM151Q466466LK)
+  path: docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf
+- label_zh: 驱动 IC 数据手册（CO5300）
+  label_en: Driver IC datasheet (CO5300)
+  path: docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf
+- label_zh: 触摸 IC 数据手册（CST820）
+  label_en: Touch IC datasheet (CST820)
+  path: docs/DS_CST_820_V1_2_e0543732ca.pdf
+- label_zh: 初始化序列（文本）
+  label_en: Init sequence (text)
+  path: docs/BOE1.508_466x466_CO5300_AMOLED_QSPI 简码.txt
+- label_zh: 1.51 寸 AMOLED 转接板
+  label_en: 1.51″ AMOLED adapter board
+  path: docs/PCB-1.51寸AMOLED屏转接板.pdf
+- label_zh: 连接器规格书（OK-14F024-04）
+  label_en: Connector datasheet (OK-14F024-04)
+  path: docs/OK-14F024-04.pdf
+- label_zh: 预编译固件（ESP32-S3 合并包）
+  label_en: Prebuilt firmware (ESP32-S3 merged)
+  path: firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin
+firmware:
+  board_zh: ESP32-S3 Demo 板
+  board_en: ESP32-S3 Demo board
+  shots:
+  - header_zh: 底板（ESP32-S3 Demo）
+    header_en: Base board (ESP32-S3 Demo)
+    alt_zh: ESP32-S3 Demo 板
+    alt_en: ESP32-S3 Demo board
+    image: esp32-s3-demo-board.png
+  - header_zh: 插接示意
+    header_en: Assembled
+    alt_zh: 模组插接在 S3 Demo 板上
+    alt_en: Module plugged into S3 Demo board
+    image: assembled.png
+  pins:
+  - func: LCD CS
+    gpio: '14'
+  - func: LCD PCLK (CLK)
+    gpio: '9'
+  - func: LCD DATA0
+    gpio: '10'
+  - func: LCD DATA1
+    gpio: '11'
+  - func: LCD DATA2
+    gpio: '12'
+  - func: LCD DATA3
+    gpio: '13'
+  - func: LCD RST
+    gpio: '15'
+  - func: TOUCH SCL
+    gpio: '42'
+  - func: TOUCH SDA
+    gpio: '41'
+  - func: TOUCH RST
+    gpio: '40'
+  - func: TOUCH INT
+    gpio: '39'
+  images:
+  - file: esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin
+    address: '0x0'
+    address_note_zh: （合并包）
+    address_note_en: ' (merged)'
+    note_zh: 适配上方 S3 Demo 板 + 本模组的 bringup
+    note_en: Bringup for the S3 Demo board + this module
+layout_dirs:
+- images/
+- docs/
+- firmware/
+- examples/
