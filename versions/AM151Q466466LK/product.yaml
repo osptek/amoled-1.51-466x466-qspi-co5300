@@ -1,6 +1,6 @@
 sku: AM151Q466466LK
 category: display
-repo: 1.51-amoled-466x466-qspi-co5300
+repo: amoled-1.51-466x466-qspi-co5300
 panel:
   size_inch: '1.51'
   panel: AMOLED
@@ -81,7 +81,7 @@ resources:
   path: docs/OK-14F024-04.pdf
 - label_zh: 预编译固件（ESP32-S3 合并包）
   label_en: Prebuilt firmware (ESP32-S3 merged)
-  path: firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin
+  path: firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin
 firmware:
   board_zh: ESP32-S3 Demo 板
   board_en: ESP32-S3 Demo board
@@ -120,7 +120,7 @@ firmware:
   - func: TOUCH INT
     gpio: '39'
   images:
-  - file: esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin
+  - file: esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin
     address: '0x0'
     address_note_zh: （合并包）
     address_note_en: ' (merged)'

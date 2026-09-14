@@ -32,7 +32,7 @@
 
 OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
 
-规格标识（仓库名）：`1.51-amoled-466x466-qspi-co5300`
+规格标识（仓库名）：`amoled-1.51-466x466-qspi-co5300`
 
 当前模组版本：**AM151Q466466LK**。电气与外形细节以 [`docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf`](./docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf) 为准。
 
@@ -77,7 +77,7 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 
 | 文件 | 烧录地址 | 说明 |
 | ---- | -------- | ---- |
-| [`firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin) | `0x0`（合并包） | 适配上方 S3 Demo 板 + 本模组的 bringup |
+| [`firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin) | `0x0`（合并包） | 适配上方 S3 Demo 板 + 本模组的 bringup |
 
 > 合并包请烧到 **`0x0`**，不要当成应用分区去烧 `0x10000`。
 
@@ -95,7 +95,7 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 ## 仓库结构
 
 ```text
-1.51-amoled-466x466-qspi-co5300/  # 仓库根（导航见 ../../README.md）
+amoled-1.51-466x466-qspi-co5300/  # 仓库根（导航见 ../../README.md）
 └── versions/
     └── AM151Q466466LK/           # 本料号完整资料
         ├── README.md
@@ -118,7 +118,7 @@ OSPTEK **1.51 寸 466×466 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 | 初始化序列（文本） | [`docs/BOE1.508_466x466_CO5300_AMOLED_QSPI 简码.txt`](./docs/BOE1.508_466x466_CO5300_AMOLED_QSPI%20%E7%AE%80%E7%A0%81.txt) |
 | 1.51 寸 AMOLED 转接板 | [`docs/PCB-1.51寸AMOLED屏转接板.pdf`](./docs/PCB-1.51%E5%AF%B8AMOLED%E5%B1%8F%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
 | 连接器规格书（OK-14F024-04） | [`docs/OK-14F024-04.pdf`](./docs/OK-14F024-04.pdf) |
-| 预编译固件（ESP32-S3 合并包） | [`firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin) |
+| 预编译固件（ESP32-S3 合并包） | [`firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin) |
 
 ### 示例工程
 

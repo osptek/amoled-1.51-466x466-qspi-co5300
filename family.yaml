@@ -1,5 +1,5 @@
 category: display
-repo: 1.51-amoled-466x466-qspi-co5300
+repo: amoled-1.51-466x466-qspi-co5300
 panel:
   size_inch: '1.51'
   panel: AMOLED

@@ -32,7 +32,7 @@
 
 OSPTEK **1.51″ 466×466 AMOLED** is a **QSPI** color display module driven by **CO5300**, with capacitive touch (**CST820**). Suited to wearables, round gauges, and compact round HMI.
 
-Spec ID (repository name): `1.51-amoled-466x466-qspi-co5300`
+Spec ID (repository name): `amoled-1.51-466x466-qspi-co5300`
 
 Current module version: **AM151Q466466LK**. Electrical and mechanical details follow [`docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf`](./docs/AM_151_Q466466_LK_7e8bc9aaa3.pdf).
 
@@ -77,7 +77,7 @@ Flash the merged image below to verify display and touch without building ESP-ID
 
 | File | Address | Notes |
 | ---- | ---- | ---- |
-| [`firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin) | `0x0` (merged) | Bringup for the S3 Demo board + this module |
+| [`firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin) | `0x0` (merged) | Bringup for the S3 Demo board + this module |
 
 > Flash the merged image at **`0x0`**, not `0x10000`.
 
@@ -95,7 +95,7 @@ Flash the merged image below to verify display and touch without building ESP-ID
 ## Repository layout
 
 ```text
-1.51-amoled-466x466-qspi-co5300/  # repo root (nav: ../../README_EN.md)
+amoled-1.51-466x466-qspi-co5300/  # repo root (nav: ../../README_EN.md)
 └── versions/
     └── AM151Q466466LK/           # full materials for this part number
         ├── README.md
@@ -118,7 +118,7 @@ Flash the merged image below to verify display and touch without building ESP-ID
 | Init sequence (text) | [`docs/BOE1.508_466x466_CO5300_AMOLED_QSPI 简码.txt`](./docs/BOE1.508_466x466_CO5300_AMOLED_QSPI%20%E7%AE%80%E7%A0%81.txt) |
 | 1.51″ AMOLED adapter board | [`docs/PCB-1.51寸AMOLED屏转接板.pdf`](./docs/PCB-1.51%E5%AF%B8AMOLED%E5%B1%8F%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
 | Connector datasheet (OK-14F024-04) | [`docs/OK-14F024-04.pdf`](./docs/OK-14F024-04.pdf) |
-| Prebuilt firmware (ESP32-S3 merged) | [`firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-1.51-amoled-466x466-qspi-co5300-bringup.bin) |
+| Prebuilt firmware (ESP32-S3 merged) | [`firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin`](./firmware/esp32s3-amoled-1.51-466x466-qspi-co5300-bringup.bin) |
 
 ### Samples
 
