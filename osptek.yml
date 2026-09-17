@@ -1,0 +1,14 @@
+id: amoled-1.51-466x466-qspi-co5300
+category: displays
+
+size: "1.51"
+panel: amoled
+resolution: 466x466
+interface: [qspi]
+shape: round
+
+versions:
+  - id: AM151Q466466LK
+    driver: CO5300
+    touch: CST820
+    note: none
